@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        .field{
+            border-style: none;
+            background-color: rgb(145, 229, 145);
+            color:black;
+        }
+        .body{
+            background-color: rgb(19, 58, 19);
+            color: white;
+        }
+    </style>
+</head>
+<body class="body">
+    <center><p>Faça seu cadastro!</p></center>
+    <fieldset class="field">
+        <center><legend>Dados pessoais:</legend></center>
+        <p>Nome:</p>     
+        <p><input type="text" size="60"></p> 
+        <p>Sobrenome:</p>    
+        <p><input type="text" size="30"> </p>
+        <p>Data de nascimento:    <input type="date" size="30">
+        Idade: <input type="text" size="7"></p>
+        <p>RG: <input type="text" size="20"></p> 
+        <p>CPF: <input type="text" size="15"></p>
+        <p>Tem CNPJ: <input type="radio" name="cnpj" value="S">Sim<input type="radio" name="cnpj" value="N"> Não </p>
+        <p>Digite seu CNPJ: <input type="text" size="20"></p>
+    </fieldset>
+    <fieldset class="field">
+        <center><legend>Endereço:</legend></center>
+        <p>Cidade: <input type="text" size="15">
+        Estado: <select>
+            <option value ="PA">Pará</option>
+                            <option value ="AC">Acre</option>
+                            <option value ="AL">Alagoas</option>
+                            <option value ="AP">Amapá</option>
+                            <option value ="AM">Amazonas</option>
+                            <option value ="BA">Bahia</option>
+                            <option value ="CE">Ceará</option>
+                            <option value ="ES">Espírito Santo</option>
+                            <option value ="GO">Goiás</option>
+                            <option value ="MA">Maranhão</option>
+                            <option value ="MT">Mato Grosso</option>
+                            <option value ="MS">Mato Grosso do Sul</option>
+                            <option value ="MG">Minas Gerais</option>
+                            <option value ="PB">Paraíba</option>
+                            <option value ="PR">Paraná</option>
+                            <option value ="PE">Pernanbuco</option>
+                            <option value ="PI">Piauí</option>
+                            <option value ="RJ">Rio de Janeiro</option>
+                            <option value ="RN">Rio Grande do Norte</option>
+                            <option value ="RS">Rio Grande do Sul</option>
+                            <option value ="RO">Rondônia</option>
+                            <option value ="RR">Roraima</option>
+                            <option value ="SC">Santa Cantarina</option>
+                            <option value ="SP">São Paulo</option>
+                            <option value ="SE">Sergipe</option>
+                            <option value ="TO">Tocantins</option>
+        </select></p>
+        <p>Rua: <input type="text" size="30"></p>
+        <p>Bairro: <input type="text" size="30">Número: <input type="text"size="10"></p>
+        <p>Complemento: <input type="text" size="50"> CEP.: <input type="text" size="10"></p>
+        <p>Telefone: <input type="text" size="10"></p>
+        <p>Email: <input type="text" size="10"></p>
+        <form name="input" action="html_form_action.asp" method="get">
+            <center><input type ="submit" value = "cadastrar"></center>
+        </form>
+    
+
+    </fieldset>
+</body>
+</html>
