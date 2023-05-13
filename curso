@@ -1,0 +1,12 @@
+const list = ["helena","rodrigo","juilo","maria","lucas","antonio"]
+
+function encontrar(list){
+  const resposta = [];
+
+  for (none of list){
+    console.log(none);
+    if(none.includes("a"))
+      resposta.push(none);
+  }
+  return resposta;
+}
